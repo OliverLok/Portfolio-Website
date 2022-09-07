@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+    <title>Oliver Lokhandwala</title>
+</head>
+
+<body>
+    
+
+    <header>
+        <div class="logo">
+            <a href="" class="header_logo">Portfolio.</a>
+            </github>
+            
+        </div>
+
+
+        <nav class="nav" id = "nav-menu"> 
+            <ion-icon name="close-outline" class="header_close" id="close-menu"></ion-icon>
+        
+            <ul class = "nav_list">
+                <li class="nav_item"><a href="#Home" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#About" class="nav_link">About</a></li>
+                <li class="nav_item"><a href="#Projects" class="nav_link">Projects</a></li>
+                <li class="nav_item"><a href="#Contact" class="nav_link">Contact</a></li>
+                <li class="nav_item">
+                        <a href="Oliver-Lokhandwala-Resume.pdf" download="Oliver Lokhandwala's Resume" class="resume">Resume</a>
+                </li>
+              
+                
+
+                <!-- <li class="nav_item"><a href="#Links-Resume" class="nav_link">Links/Resume</a></li> -->
+
+            </ul>
+
+        </nav>
+
+        <ion-icon name="menu-outline" class="header_toggle" id="toggle-menu"></ion-icon>
+
+    </header>
+  
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+    <div1>
+        
+        
+        <div class="anchor-zero" id="Home">
+
+        </div>
+
+        <div class="container">
+            <h1>
+                <firstLine>
+                    Hello, my name is
+                </firstLine>
+                <secondLine> <br>
+                    
+                    Oliver 
+                    <colorOne>
+                        Lokhandwala
+                    </colorOne>
+                    
+                </secondLine>
+                <br> <div class="movingText">
+                    And I'm a <span class="auto-type"></span>
+                </div>
+
+
+               
+                <br>
+                <a href="#Contact">
+
+                    <button> Let's Talk!
+                    </button>
+                </a>
+                <script src="main.js"></script>
+
+                 <linked class="linked-in">
+                <div>
+                    <a href="https://www.linkedin.com/in/oliver-lokhandwala/" target="_blank">
+                        <img src="linkedin-removebg-preview.png" alt="">
+                    </a>
+                </linked>
+                <github class="github">
+                    <a href="https://github.com/OliverLok" target="_blank">
+                        <img src="github.png" alt="">
+                        
+                    </a>
+                </div>
+           
+
+            </h1>
+        </div>
+
+       <div class="anchor-one" id="About">
+           <h4></h4>
+       </div>
+        
+        <section class="about">
+            <div class="content">
+                <img src="profilePic.png" alt="">
+                <div class="about-text">
+                    <h1>
+                            <color-one>01. </color-one> <titleA>About me </titleA>
+                    </h1>
+                    
+                    
+                    <h5>Hello! My name is Oliver Lokhandwala and I enjoy learning about new technologies and developing software.
+                        My first experience with coding was in a high school engineering class where I used VEXcode text in python to be able to control a vex robot,
+                        which taught me the power of knowing how to code. After attending Las Positas College for two years, I transfered to The University of California, Santa Cruz
+                        where I am studying computer science.  </h5>
+                    
+                </div>
+
+                </div>
+                
+        </section>
+            </div>
+        
+        <div class="anchor-two" id="Projects">
+            
+        </div>
+
+
+        <div class="project-sec" id="project">
+            <h1 class="project-title"><color-one>02. </color-one>Projects</h1>
+            
+            <div class="swiper mySwiper" >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide project-one">
+                        <h1>3DCampus AR</h1>
+                        <img src="CampusAR.PNG" alt="">
+                        <img src="3dCampusAR.jpeg" alt="">
+                        <p class="project-description">3D modeled, designed, and collaborated with a group of students to create an augmented reality map of Foothill High School for the iOS app store.</p>
+                        <a href="https://apps.apple.com/us/app/3dcampus-ar/id1474046485" target="_blank">
+                            <div class="but-one">
+                                <button class="arrow-button">View More<span class="arrow"></span>
+                                </button>
+                            </div>
+                          
+                        </a>                       
+                    </div>
+                    
+                    <div class="swiper-slide project-two">
+                        <h1>NFT Profits Calculator</h1>
+                        <img src="nft-1.png" alt="">
+                        <img src="nft-2.jpg" alt="">
+                        <p class="project-description">A terminal-based program in Python to calculate the net profit/loss of an NFT trade on OpenSea and store it to a text file for later reference.</p>
+                        <a href="https://github.com/OliverLok/NFTProfitCalc" target="_blank">
+                            <div class="but-two">
+                                <button class="arrow-button">View More<span class="arrow"></span>
+                            </div>
+                        </a>
+                    </div>
+
+                    
+                </div>
+                
+              </a>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>    
+            </div>
+           
+    
+        </div>
+       
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+           
+           <script>
+                var swiper = new Swiper(".mySwiper", {
+                  cssMode: true,
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                  },
+                  pagination: {
+                    el: ".swiper-pagination"
+                  },
+                  mousewheel: true,
+                  keyboard: true
+                });
+              </script>
+
+
+        </div>
+    
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+       
+
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Developer", "Student"],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            })
+        </script>
+
+
+    </div1>
+
+
+
+   <div class="anchor-three">
+
+    </div>
+
+    <div class="anchor-four" id="Contact">
+
+    </div>
+
+
+
+
+    <div class="contact-sec">
+        <form action="https://formsubmit.co/oliver.lokhandwala@gmail.com" method="POST">
+
+            <h1 class="contact-title"><color-one>03. </color-one>Contact Me</h1>
+            <input type="hidden" name="_subject" value="New email from website">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="hidden" name="_next" value="https://oliverlokhandwala.com/thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
+            <textarea id="message" cols="30" rows="10" name="message"placeholder="Your Message"></textarea>
+            <button class="send-button">Send!<span class="arrow"></span>
+
+        </form>
+
+        
+       
+
+    </div>
+
+   
+ 
+       
+
+    </script>
+
+    <div class="anchor-five">
+
+    </div>
+
+</body>
+
+</html>
